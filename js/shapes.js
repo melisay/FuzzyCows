@@ -240,7 +240,7 @@ $(document).ready(function() {
 		
 		previewElem.find('#preview-details ul').empty();
 		elem.find('.project-attributes .newline').each(function(){
-			previewElem.find('#preview-details ul').append('<li>'+$(this).html()+'</li>')
+			previewElem.find('#preview-details ul').append('<li>'+$(this).html()+'</li>');
 		});
 		
 		previewElem.find('#preview-content').html(descr);

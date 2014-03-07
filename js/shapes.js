@@ -5,7 +5,7 @@ $(document).ready(function() {
 	
 	$(window).load(function(){
 		$('#page-loader').fadeOut(500);
-	})	
+	});
 	
 	/*============================================
 	Background Slider
@@ -269,7 +269,7 @@ $(document).ready(function() {
 							openPreview();
 							$('#preview-loader').removeClass('show');
 							$(window).trigger('resize');
-						},1000)
+						},1000);
 					}
 				});
 			});

@@ -5,7 +5,7 @@ $(document).ready(function() {
 	
 	$(window).load(function(){
 		$('#page-loader').fadeOut(500);
-	})	
+	});
 	
 	/*============================================
 	Background Slider
@@ -81,7 +81,7 @@ $(document).ready(function() {
 	});
 		
 	$(window).load(function(){
-		$('.jumbotron').delay(500).animate({'height':$(window).height()-80},500);
+		$('.jumbotron').delay(500).animate({'height':$(window).height()-990},500);
 		
 		setTimeout(function(){
 			$('.jumbotron .container').addClass('in');
